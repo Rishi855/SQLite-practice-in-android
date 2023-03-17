@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B8A84"
+    tools:context=".UserDetails">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutU"
+        android:layout_width="365dp"
+        android:layout_height="686dp"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035">
+
+        <TextView
+            android:id="@+id/textIdU"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="ID"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textNameU"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textSurnameU"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Surname"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textGenderU"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Gender"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textAgeU"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/textPhoneU"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/addentryU"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="30dp"
+            android:text="Add Entry" />
+
+        <Button
+            android:id="@+id/editU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0D9734"
+            android:text="Edit"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/updateU"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Update" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

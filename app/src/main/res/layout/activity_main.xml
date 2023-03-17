@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTableName"
+        android:layout_width="196dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="48dp"
+        android:text="College"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="332dp"
+        android:layout_height="556dp"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTableName"
+        app:layout_constraintVertical_bias="0.035">
+
+        <EditText
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/textSurname"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Surname"
+            android:inputType="text"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/textGender"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Gender"
+            android:inputType="text"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/textAge"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="text"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/textPhone"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="text"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="30dp"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Show All Entry" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
